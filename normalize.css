@@ -3,6 +3,16 @@
 /* Document
    ========================================================================== */
 
+/* Variables
+   ========================================================================== */
+
+:root {
+  --fontColor: #2d3436;
+  --linkColor: #2980b9;
+  --linkHover: #3498db;
+  --bodyBackground: #999999;
+}
+
 /**
  * 1. Making border-box to the global standard
  */
@@ -41,9 +51,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--fontColor);
   text-align: left;
-  background-color: transparent;
+  background-color: var(--bodyBackground);
 }
 
 /**
@@ -95,7 +105,13 @@ pre {
  */
 
 a {
+  color: var(--linkColor);
   background-color: transparent;
+}
+
+a:hover {
+  color: var(--hoverColor);
+  text-decoration: none;
 }
 
 /**
