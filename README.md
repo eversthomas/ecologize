@@ -1,5 +1,7 @@
 # ecologize.css (.min.css, .scss)
 
+![Image of ecology](https://github.com/eversthomas/ecologize.css/img/ecology_logo-200.png)
+
 ## based on normalize.css
 
 It's my modified version of the normalize.css v8.0.1, by [Nicolas Gallagher](https://github.com/necolas)
