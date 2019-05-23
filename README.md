@@ -1,6 +1,6 @@
 # ecologize.css (.min.css, .scss)
 
-![Image of ecology](https://github.com/eversthomas/ecologize.css/blob/master/img/ecology_logo-350.png)
+![Image of ecology](https://github.com/eversthomas/ecologize.css/blob/master/img/ecology_logo-350-trans.png)
 
 ## based on normalize.css
 
