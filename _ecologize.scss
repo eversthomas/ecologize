@@ -47,7 +47,7 @@ body {
 
 // Render the `main` element consistently in IE.
 
-main {
+header, main, aside, footer {
   display: block;
 }
 
@@ -147,6 +147,8 @@ sup {
 
 img {
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 // Forms
