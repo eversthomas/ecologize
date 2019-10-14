@@ -14,6 +14,8 @@ In the scss file: integrate some base variables (soon some standard mixins, f.e.
 2. Making border-box to the global standard
 3. In html: Font-size to 16px as a root element (for rem's), chaged everything to rem's
 4. Body: make max-width to 100vw;set the padding to 0; the font-size to 1rem; a standard font-weight to 400; the text color to a variable; text-align: left; the background-color to a variable
+5. display: block on header, main, aside, footer
+6. img tomax-width: 100%and height: auto
 
 For more information about normalize.css see the text below:
 ------------------------------------------------------------
