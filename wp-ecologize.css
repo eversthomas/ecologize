@@ -329,6 +329,10 @@ template {
 	right: auto;
 }
 
+p, a, pre {
+  word-wrap:break-word;
+}
+
 .wp-block-audio audio {
     max-width: 100%;
     min-width: 180px;
