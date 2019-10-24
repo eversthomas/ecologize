@@ -329,6 +329,11 @@ template {
 	right: auto;
 }
 
+.wp-block-audio audio {
+    max-width: 100%;
+    min-width: 180px;
+}
+
 .wp-caption {color: black;}
 .wp-caption-text {color: black;}
 .sticky {color: black;}
