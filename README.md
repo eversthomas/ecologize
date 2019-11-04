@@ -1,4 +1,4 @@
-# ecologize.css (.min.css, .scss)
+# ecologize.css (.min.css, .scss, wp-*)
 
 ![Image of ecology](https://github.com/eversthomas/ecologize.css/blob/master/img/ecology_logo-350-trans.png)
 
@@ -10,12 +10,16 @@ It's my modified version of the normalize.css v8.0.1, by [Nicolas Gallagher](htt
 
 In the scss file: integrate some base variables (soon some standard mixins, f.e. a site wrapper)
 
-1. Integrate some base css variables: fontcolor, linkcolor, linkhovercolor, bodybackgroundcolor
+1. Integrate some base css variables: fontcolor, linkcolor, linkhovercolor, bodybackgroundcolor (only in scss)
 2. Making border-box to the global standard
 3. In html: Font-size to 16px as a root element (for rem's), chaged everything to rem's
 4. Body: make max-width to 100vw;set the padding to 0; the font-size to 1rem; a standard font-weight to 400; the text color to a variable; text-align: left; the background-color to a variable
 5. display: block on header, main, aside, footer
-6. img tomax-width: 100%and height: auto
+6. img2max-width: 100%and height: auto
+
+### for wordpress:
+
+integrate some typical wordpress styles thats needed for the wordpress theme directory
 
 For more information about normalize.css see the text below:
 ------------------------------------------------------------
