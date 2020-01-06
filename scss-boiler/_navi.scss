@@ -1,0 +1,32 @@
+// navigation
+
+/* main navigation */
+.js .site-nav {
+    display: none;
+}
+
+#toggle-nav {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 0.2rem 0.4rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+}
+
+#toggle-nav:hover {
+    background: black;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .js .site-nav {
+        display: block;
+    }
+    
+    #toggle-nav {
+        display: none;
+    }
+}

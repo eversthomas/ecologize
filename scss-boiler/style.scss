@@ -1,0 +1,28 @@
+/*
+Theme Name: Naven
+Theme URI: https://github.com/eversthomas/wordpress-blank-theme-naven/
+Author: Thomas Evers
+Author URI: https://end-linkage.de/
+Description: Naven is a minimum barebones wordpress theme to develop websites.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: naven
+Tags: without any styling
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+// include parts
+@import 'wp-ecologize'; // normalize
+@import 'typo'; // typography
+@import 'links'; // links and buttons
+@import 'media'; // images and responsive media
+@import 'forms'; // forms
+@import 'navi'; // navigation
+@import 'layout'; // layouts and stuff
+@import 'header'; // header styles
+// @import 'custom_header_image'; // full width background image
+@import 'main'; // main content
+@import 'sidebar'; // sidebar - aside - widgets
+@import 'footer'; // footer
