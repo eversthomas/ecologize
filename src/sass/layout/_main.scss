@@ -3,19 +3,4 @@
 
 .site-content {
 
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-between;
-
-    main {
-      width: 65%;
-      padding: 1rem;
-    }
-
-    aside {
-      width: 25%;
-      padding: 1rem;
-    }
-  }
-
 }

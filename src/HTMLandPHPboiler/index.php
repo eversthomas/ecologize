@@ -29,7 +29,7 @@
                 <p>sub headliner / slogan</p>
             </div>
         </header>
-        
+
         <nav class="site-nav">
             <ul>
                 <li><a href="#">nav ul li a</a></li>
@@ -43,12 +43,12 @@
                 <h2>article header h2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
             </article>
-            
+
             <aside class="sidebar">
                 <h3>aside</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
             </aside>
-            
+
         </main>
 
         <footer class="site-footer">
