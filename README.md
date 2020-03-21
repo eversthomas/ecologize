@@ -41,3 +41,13 @@ Download or clone this repo: npm install (gulpfile.js) - you know this!
     │   └──                      # empty
     │       
     └── style.scss               # Main Sass file
+
+## html and php structure
+
+## thanks
+
+https://github.com/HugoGiraudel/sass-boilerplate
+
+https://necolas.github.io/normalize.css/
+
+https://html5boilerplate.com/
