@@ -18,7 +18,7 @@
             <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
-    <body>
+    <body class="site-wrapper">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,13 +30,30 @@
             </div>
         </header>
 
-        <nav class="site-nav">
+        <section class="navigation-bar site-wrapper">
+          <input type="checkbox" id="hamburger">
+          <label for="hamburger" class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </label>
+          <nav class="nav" role="navigation">
+            <div class="brand">
+              <img src="https://placehold.it/50x50" style="border-radius: 100%;">
+            </div>
             <ul>
-                <li><a href="#">nav ul li a</a></li>
-                <li><a href="#">nav ul li a</a></li>
-                <li><a href="#">nav ul li a</a></li>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#sub">Link 3
+                <ul>
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                </ul>
+              </a></li>
             </ul>
-        </nav>
+          </nav>
+        </section>
+
 
         <main class="site-content">
             <article>

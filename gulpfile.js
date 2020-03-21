@@ -52,6 +52,7 @@ gulp.task('copyALL', async function() {
 // watch everything
 gulp.task('watch', function () {
   gulp.watch([src + 'sass/**/*.scss'], gulp.series('sass'));
+  gulp.watch([src + 'sass/**/*.scss'], gulp.series('sass2'));
   gulp.watch([src + 'HTMLandPHPboiler/**/*.*'], gulp.series('copyALL'));
  });
  gulp.task('default', gulp.series('sass', 'sass2', 'copyALL', 'watch'));
