@@ -8,7 +8,7 @@
 
 ### the reset is based on normalize.css
 
-With my modified version of the normalize.css v8.0.1, by [Nicolas Gallagher](https://github.com/necolas)
+With my modified version of the normalize.css v8.0.1, by [Nicolas Gallagher](https://necolas.github.io/normalize.css/)
 
 ### Changes
 
