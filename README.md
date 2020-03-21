@@ -4,7 +4,7 @@
 
 ## it is now a sass boilerplate with a reset integrated
 
-![Image of ecology](https://github.com/eversthomas/ecologize.css/blob/master/img/ecology_logo-350-trans.png)
+![Image of ecology](https://github.com/eversthomas/ecologize.css/blob/master/scr/HTMLandPHP/img/ecology_logo-350-trans.png)
 
 ### the reset is based on normalize.css
 
