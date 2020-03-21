@@ -45,7 +45,7 @@ gulp.task('sass2', function () {
 // });
 
 gulp.task('copyALL', async function() {
-    gulp.src([src] + 'HTMLandPHPboiler/**/*.{html,php,png,xml,ico,txt,jpg,ttf,woff,eof,svg}')
+    gulp.src([src] + 'HTMLandPHPboiler/**/*.{html,php,png,xml,ico,txt,jpg,ttf,woff,woff2,eof,svg}')
    .pipe(gulp.dest([dist] + 'HTMLandPHPboiler'));
 });
 
