@@ -1,0 +1,26 @@
+{
+  "name": "ecologize.css",
+  "version": "1.0.0",
+  "description": "a sass boiler with reset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eversthomas/ecologize.css.git"
+  },
+  "keywords": [
+    "reset",
+    "sass",
+    "html",
+    "php",
+    "css"
+  ],
+  "author": "Thomas Evers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eversthomas/ecologize.css/issues"
+  },
+  "homepage": "https://github.com/eversthomas/ecologize.css#readme"
+}

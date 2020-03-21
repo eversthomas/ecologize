@@ -2,10 +2,34 @@
 // footer
 
 footer {
-  background: #353b48;
+  background: #0a3b5a;
   color: white;
   padding: 2rem 1rem;
   @media screen and (min-width: 768px) {
     padding: 2rem 4rem;
   }
+  
+  a {
+  	color: #f1c40f;
+	text-decoration: none;
+	
+	&:hover {
+		text-decoration: underline;
+		color: #f1c40f;
+	}
+	
+	}
+	
+	.flex-widgets {
+		display: flex;
+		flex-direction: column;
+		@media screen and (min-width: 768px) {
+			flex-direction: row;
+			justify-content: space-between;
+			div {
+				width: 30%;
+			}
+		}
+	}
+  
 }
