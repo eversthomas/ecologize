@@ -45,26 +45,13 @@ gulp.task('sass2', function () {
 // });
 
 gulp.task('copyALL', async function() {
-   gulp.src([src] + 'HTMLandPHPboiler/index.php')
-   .pipe(gulp.dest([src] + 'HTMLandPHPboiler'));
-});
-
-// pipe all php files
-gulp.task('copyPHP', async function () {
-    gulp.src([src + 'HTMLandPHPboiler/*.php'])
-    .pipe(gulp.dest([dist + 'HTMLandPHPboiler']));
-});
-
-// pipe all font files
-gulp.task('copyFont', async function () {
-    gulp.src([src + 'HTMLandPHPboiler/fonts/*.*'])
-    .pipe(gulp.dest([dist + 'HTMLandPHPboiler/fonts']));
+    gulp.src([src] + 'HTMLandPHPboiler/**/*.{html,php,png,xml,ico,txt,jpg,ttf,woff,eof,svg}')
+   .pipe(gulp.dest([dist] + 'HTMLandPHPboiler'));
 });
 
 // watch everything
 gulp.task('watch', function () {
   gulp.watch([src + 'sass/**/*.scss'], gulp.series('sass'));
-  gulp.watch([src + 'HTMLandPHPboiler/*.php'], gulp.series('copyPHP'));
-  gulp.watch([src + 'HTMLandPHPboiler/fonts/*.*'], gulp.series('copyFont'));
+  gulp.watch([src + 'HTMLandPHPboiler/**/*.*'], gulp.series('copyALL'));
  });
- gulp.task('default', gulp.series('sass', 'sass2', 'copyPHP', 'copyFont', 'watch'));
+ gulp.task('default', gulp.series('sass', 'sass2', 'copyALL', 'watch'));
