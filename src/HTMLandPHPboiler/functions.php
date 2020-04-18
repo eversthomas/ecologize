@@ -3,7 +3,8 @@
   // site informations
   $config = [
     'title'       =>  'ecologize boiler',
-    'description' =>  'a php and sass boiler plate'
+    'description' =>  'a php and sass boiler plate',
+    'meta'        =>  'sass, website, boilerplate, php, functions, config, kamp-lintfort'
   ];
 
   function siteTitle($config) {
@@ -11,6 +12,9 @@
   };
   function siteDescrpt($config) {
       echo $config['description'];
+  };
+  function siteMeta($config) {
+      echo $config['meta'];
   };
 
   // main menu
@@ -23,12 +27,12 @@
   ];
 
 
-function mainMenu($menu) {
-    echo '<ul>';
-      foreach($menu AS $item => $link) {
-      echo "<li>" . "$link" . "</li>";
-      }
-    echo '</ul>';
-};
+  function mainMenu($menu) {
+      echo '<ul>';
+        foreach($menu AS $item => $link) {
+        echo "<li>" . "$link" . "</li>";
+        }
+      echo '</ul>';
+  };
 
  ?>

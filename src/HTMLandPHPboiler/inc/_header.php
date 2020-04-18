@@ -8,7 +8,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title><?php siteTitle($config);?></title>
-        <meta name="description" content="">
+        <meta name="description" content="<?php siteDescrpt($config);?>">
+        <meta name="keywords" content="<?php siteMeta($config);?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 

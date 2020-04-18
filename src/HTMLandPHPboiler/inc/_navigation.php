@@ -7,8 +7,8 @@
   </label>
   <nav class="nav" role="navigation">
     <div class="brand">
-      <img src="https://via.placeholder.com/100x40?text=Logo">
+      <img src="https://via.placeholder.com/100x40?text=Logo" alt="logo">
     </div>
-    <?php mainMenu($menu); ?>
+    <?php mainMenu($menu); // look out in functions.php ?>
   </nav>
 </section>
