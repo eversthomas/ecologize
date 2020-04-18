@@ -3,7 +3,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 9;
-  
+
   /* style the hamburger */
   label.hamburger {
     display: block;
@@ -20,11 +20,11 @@
     left: 10px;
     z-index:1;
   }
-  
+
   input#hamburger {
     display: none;
   }
-  
+
   .line {
     position: absolute;
     left: 5px;
@@ -36,19 +36,19 @@
     transition: .5s;
     transform-origin: center;
   }
-  
+
   .line:nth-child(1) {top: 9px;}
   .line:nth-child(2) {top: 18px;}
   .line:nth-child(3) {top: 27px;}
-  
+
   #hamburger:checked + .hamburger .line {
     background: #ffffff;
   }
-  
+
   #hamburger:checked + label.hamburger {
     background: #2980b9;
   }
-  
+
   #hamburger:checked + .hamburger .line:nth-child(1) {
     transform: translateY(9px) rotate(-45deg);
   }
@@ -58,7 +58,7 @@
   #hamburger:checked + .hamburger .line:nth-child(3) {
     transform: translateY(-9px) rotate(45deg);
   }
-  
+
   /* menu open and close */
   nav {
     position: fixed;
@@ -70,12 +70,12 @@
     padding: 2rem;
     transition: all .6s;
   }
-  
+
   #hamburger:checked + .hamburger + nav {
     right: 0vw;
     top: 0vh;
   }
-  
+
   /* style the mobile menu */
   nav ul {
     margin: 0;
@@ -91,7 +91,7 @@
       padding-left: 20px;
     }
   }
-  
+
   /* style the menu for desktop */
   @media screen and (min-width: 600px) {
     label.hamburger {
@@ -108,12 +108,9 @@
       transition: all .6s;
 	  border-bottom: 1px solid black;
 	  display: flex;
-	  justify-content: space-around;
+	  justify-content: space-between;
 	  align-items: center;
-	  .brand {
-	  	max-width: 42px;
-	  }
-      
+
       ul {
         margin: 0;padding:0;
         list-style: none;
@@ -122,7 +119,7 @@
         li {
           padding: 10px 15px;
           position: relative;
-		  
+
 		  a {
 		  	color: #2c3e50;
 			font-weight: bold;

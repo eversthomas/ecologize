@@ -7,17 +7,8 @@
   </label>
   <nav class="nav" role="navigation">
     <div class="brand">
-      <img src="https://placehold.it/50x50" style="border-radius: 100%;">
+      <img src="https://via.placeholder.com/100x40?text=Logo">
     </div>
-    <ul>
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#sub">Link 3
-        <ul>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-        </ul>
-      </a></li>
-    </ul>
+    <?php mainMenu($menu); ?>
   </nav>
 </section>
