@@ -4,6 +4,10 @@
 
 This is my small sass boilerplate + html and php basefiles. I use this to have my sass foundation quick in use and i use this for rapid static website development.
 
+You can use the compiled sass as a cdn:
+
+https://rawcdn.githack.com/eversthomas/ecologize/68370f463545e232513931bf4a3894eaca2127e0/dist/style.css
+
 ## how to use
 
 Download or clone this repo: npm install (gulpfile.js) - you know this!
