@@ -12,7 +12,7 @@ html {
   box-sizing: border-box;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  font-size: 16px; // basis for body REMs
+  font-size: $base-font-size; // basis for body REMs
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -75,11 +75,11 @@ pre {
 // Remove the gray background on active links in IE 10.
 
 a {
-  color: $links;
+  color: $link;
   background-color: transparent;
 
   &:hover {
-    color: $links-hover;
+    color: $link-hover;
     text-decoration: none;
   }
 
